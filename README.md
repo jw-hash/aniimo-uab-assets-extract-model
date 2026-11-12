@@ -1,4 +1,4 @@
-伊莫模型提取</h1>
+<h1>伊莫模型提取
 
 使用 claude sonnet 5.5 编写的.py脚本，需要使用pip 安装Unitypy与numpy库。
 
@@ -17,3 +17,9 @@ This .py script was written using Claude Sonnet 5.5，it requires the installati
 uab_extract description: Suitable for extracting all assets from .uab files, but model extraction only supports .obj format.
 
 uab_to_model: Suitable for extracting .uab model assets, including model skeletons and animations. (Version 2 adds improvements for extracting model skeletons and animations for other aniimo models such as Parmon_10XXX01 and Parmon_10XXX02).
+
+Example: python uab_to_model_v4.py ./bundles -c Parmon_10XXX -o ./out --root-motion keep</h1>
+
+Description: The (./bundles) directory refers to the asset directory in the Imo game, while Parmon_10XXX refers to Imo's model number. To find the specific number, you can browse (Aniimo_UI_Img_ResearchBook_Enter). Usually, the number in the file extension of Aniimo_UI_Img_ResearchBook_Enter_10XXX.png corresponds to the Parmon_10XXX number.
+
+Specific directory path: Aniimo\game\Aniimo_Data\cvs\res\uab\win\DefaultPackage\CacheBundleFiles\
