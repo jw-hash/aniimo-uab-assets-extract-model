@@ -1,6 +1,6 @@
 <h1>伊莫模型提取</h1>
 
-使用 claude sonnet 5.5 编写的.py脚本，需要使用pip 安装Unitypy与numpy库。
+使用 claude sonnet 5.5 编写的.py脚本，需要使用pip安装Unitypy与numpy库。
 
 uab_extract介绍：适合提取.uab文件里的所有资产，但模型提取只有.obj格式。
 
