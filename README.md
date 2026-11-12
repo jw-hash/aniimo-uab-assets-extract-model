@@ -12,6 +12,8 @@ uab_to_model: 适合提取.uab模型资产，包括模型骨骼与动画。（v2
 
 具体目录路径 ：Aniimo\game\Aniimo_Data\cvs\res\uab\win\DefaultPackage\CacheBundleFiles\
 
+<h1>Aniimo model extraction</h1>
+
 This .py script was written using Claude Sonnet 5.5，it requires the installation of the UnityPy and NumPy libraries via pip.
 
 uab_extract description: Suitable for extracting all assets from .uab files, but model extraction only supports .obj format.
