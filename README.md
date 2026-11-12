@@ -4,7 +4,13 @@
 
 uab_extract介绍：适合提取.uab文件里的所有资产，但模型提取只有.obj格式。
 
-uab_to_model: 适合提取.uab模型资产，包括模型骨骼与动画。（v2版本新增针对 Parmon_10XXX01, Parmon_10XXX02等其他编号的伊莫的模型骨骼与动画提取改进）。
+<h1>uab_to_model: 适合提取.uab模型资产，包括模型骨骼与动画。（v2版本新增针对 Parmon_10XXX01, Parmon_10XXX02等其他编号的伊莫的模型骨骼与动画提取改进）。
+
+示例：python uab_to_model_v4.py ./bundles -c Parmon_10XXX -o ./out --root-motion keep</h1>
+
+描述：（./bundles） 目录是指伊莫游戏里的资产目录， 而 Parmon_10XXX 是指伊莫的模型编号，要找具体的编号可以浏览 （Aniimo_UI_Img_ResearchBook_Enter）。通常 Aniimo_UI_Img_ResearchBook_Enter_10XXX.png 文件名后缀里的编号对应着 Parmon_10XXX 的编号。
+
+具体目录路径 ：Aniimo\game\Aniimo_Data\cvs\res\uab\win\DefaultPackage\CacheBundleFiles\
 
 This .py script was written using Claude Sonnet 5.5，it requires the installation of the UnityPy and NumPy libraries via pip.
 
