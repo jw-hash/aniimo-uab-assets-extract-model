@@ -1,10 +1,10 @@
-<h1>伊莫模型提取</h1>
+伊莫模型提取</h1>
 
 使用 claude sonnet 5.5 编写的.py脚本，需要使用pip 安装Unitypy与numpy库。
 
 uab_extract介绍：适合提取.uab文件里的所有资产，但模型提取只有.obj格式。
 
-<h1>uab_to_model: 适合提取.uab模型资产，包括模型骨骼与动画。（v2版本新增针对 Parmon_10XXX01, Parmon_10XXX02等其他编号的伊莫的模型骨骼与动画提取改进）。
+uab_to_model: 适合提取.uab模型资产，包括模型骨骼与动画。（v2版本新增针对 Parmon_10XXX01, Parmon_10XXX02等其他编号的伊莫的模型骨骼与动画提取改进）。
 
 示例：python uab_to_model_v4.py ./bundles -c Parmon_10XXX -o ./out --root-motion keep</h1>
 
