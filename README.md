@@ -1,5 +1,7 @@
 <h1>伊莫模型提取</h1>
 
+个人对话与任务分享：https://claude.ai/share/162cf75b-99c2-44d6-8940-aca76cbcb6d3
+
 使用 claude sonnet 5.5 编写的.py脚本，需要使用pip安装Unitypy与numpy库。
 
 uab_extract介绍：适合提取.uab文件里的所有资产，但模型提取只有.obj格式。
@@ -13,6 +15,8 @@ uab_to_model: 适合提取.uab模型资产，包括模型骨骼与动画。（v2
 具体目录路径 ：Aniimo\game\Aniimo_Data\cvs\res\uab\win\DefaultPackage\CacheBundleFiles\
 
 <h1>Aniimo model extraction</h1>
+
+Personal dialogue and task sharing: https://claude.ai/share/162cf75b-99c2-44d6-8940-aca76cbcb6d3
 
 This .py script was written using Claude Sonnet 5.5，it requires the installation of the UnityPy and NumPy libraries via pip.
 
